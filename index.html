@@ -15,11 +15,11 @@
       --rule: rgba(26, 18, 8, 0.18);
       --rule-heavy: rgba(26, 18, 8, 0.55);
     }
-
+ 
     * { margin: 0; padding: 0; box-sizing: border-box; }
-
+ 
     html { scroll-behavior: smooth; }
-
+ 
     body {
       background-color: var(--cream);
       color: var(--ink);
@@ -28,7 +28,7 @@
       line-height: 1.65;
       -webkit-text-size-adjust: 100%;
     }
-
+ 
     /* ── MASTHEAD TOP BAR ── */
     .masthead-top {
       border-top: 3px solid var(--ink);
@@ -44,14 +44,14 @@
       color: var(--ink-faded);
       gap: 0.5rem;
     }
-
+ 
     .masthead-top .hide-mobile { display: block; }
-
+ 
     .masthead-center {
       text-align: center;
       padding: 2rem 1.5rem 0;
     }
-
+ 
     .masthead-edition {
       font-family: 'Special Elite', monospace;
       font-size: 10px;
@@ -60,7 +60,7 @@
       color: var(--sepia);
       margin-bottom: 0.6rem;
     }
-
+ 
     .site-title {
       font-family: 'Playfair Display', Georgia, serif;
       font-size: clamp(3rem, 13vw, 7rem);
@@ -70,7 +70,7 @@
       color: var(--ink);
       margin-bottom: 0.5rem;
     }
-
+ 
     .masthead-rule-block {
       display: flex;
       align-items: center;
@@ -78,20 +78,20 @@
       gap: 0.75rem;
       margin: 0.6rem 0;
     }
-
+ 
     .masthead-rule-block .rule-line {
       flex: 1;
       max-width: 120px;
       height: 1px;
       background: var(--ink);
     }
-
+ 
     .masthead-rule-block .rule-diamond {
       font-size: 8px;
       color: var(--rust);
       letter-spacing: 0.4em;
     }
-
+ 
     .site-tagline {
       font-family: 'Cormorant Garamond', Georgia, serif;
       font-style: italic;
@@ -101,7 +101,7 @@
       margin-bottom: 1.25rem;
       padding: 0 0.5rem;
     }
-
+ 
     /* ── NAVIGATION ── */
     nav {
       border-top: 2px solid var(--ink);
@@ -115,16 +115,16 @@
       -webkit-overflow-scrolling: touch;
       scrollbar-width: none;
     }
-
+ 
     nav::-webkit-scrollbar { display: none; }
-
+ 
     .nav-inner {
       display: flex;
       justify-content: center;
       min-width: max-content;
       padding: 0 1rem;
     }
-
+ 
     nav a {
       font-family: 'Special Elite', monospace;
       font-size: 11px;
@@ -138,18 +138,18 @@
       white-space: nowrap;
       display: block;
     }
-
+ 
     nav a:first-child { border-left: 1px solid var(--rule-heavy); }
     nav a:hover { color: var(--rust); }
     nav a.active { color: var(--rust); }
-
+ 
     /* ── MAIN ── */
     main {
       max-width: 960px;
       margin: 0 auto;
       padding: 2rem 1.25rem 5rem;
     }
-
+ 
     /* ── SECTION LABEL ── */
     .section-label {
       font-family: 'Special Elite', monospace;
@@ -162,7 +162,7 @@
       align-items: center;
       gap: 0.75rem;
     }
-
+ 
     .section-label::before,
     .section-label::after {
       content: '';
@@ -170,14 +170,14 @@
       height: 1px;
       background: var(--rule);
     }
-
+ 
     /* ── BANNER STORY ── */
     .banner-story {
       border-bottom: 2px solid var(--ink);
       padding-bottom: 2rem;
       margin-bottom: 2rem;
     }
-
+ 
     .banner-kicker {
       font-family: 'Special Elite', monospace;
       font-size: 10px;
@@ -187,7 +187,7 @@
       display: block;
       margin-bottom: 0.5rem;
     }
-
+ 
     .banner-headline {
       font-family: 'Playfair Display', Georgia, serif;
       font-size: clamp(1.8rem, 5.5vw, 3.8rem);
@@ -196,15 +196,15 @@
       color: var(--ink);
       margin-bottom: 0.6rem;
     }
-
+ 
     .banner-headline a {
       color: inherit;
       text-decoration: none;
       transition: color 0.2s;
     }
-
+ 
     .banner-headline a:hover { color: var(--rust); }
-
+ 
     .banner-deck {
       font-family: 'Cormorant Garamond', Georgia, serif;
       font-style: italic;
@@ -213,7 +213,7 @@
       line-height: 1.45;
       margin-bottom: 1rem;
     }
-
+ 
     .banner-byline {
       font-family: 'Special Elite', monospace;
       font-size: 10px;
@@ -222,13 +222,13 @@
       color: var(--sepia);
       margin-bottom: 1.25rem;
     }
-
+ 
     .banner-body {
       column-count: 2;
       column-gap: 2.5rem;
       column-rule: 1px solid var(--rule);
     }
-
+ 
     .banner-body p {
       font-size: 1rem;
       line-height: 1.78;
@@ -237,7 +237,7 @@
       text-align: justify;
       hyphens: auto;
     }
-
+ 
     .banner-body p:first-child::first-letter {
       font-family: 'Playfair Display', Georgia, serif;
       font-size: 3.8rem;
@@ -247,7 +247,7 @@
       margin: 0.1rem 0.15rem 0 0;
       color: var(--ink);
     }
-
+ 
     .continued {
       font-family: 'Special Elite', monospace;
       font-size: 10px;
@@ -257,7 +257,7 @@
       margin-top: 0.75rem;
       display: block;
     }
-
+ 
     /* ── PULL QUOTE ── */
     .pull-quote-bar {
       border-top: 2px solid var(--ink);
@@ -266,7 +266,7 @@
       text-align: center;
       margin: 2rem 0;
     }
-
+ 
     .pull-quote-bar blockquote {
       font-family: 'Playfair Display', Georgia, serif;
       font-style: italic;
@@ -275,7 +275,7 @@
       color: var(--ink);
       font-weight: 400;
     }
-
+ 
     .pull-quote-bar cite {
       display: block;
       font-family: 'Special Elite', monospace;
@@ -286,7 +286,7 @@
       font-style: normal;
       margin-top: 0.5rem;
     }
-
+ 
     /* ── NEWSPAPER GRID (3-col → 1-col) ── */
     .newspaper-grid {
       display: grid;
@@ -294,19 +294,19 @@
       gap: 0;
       border-top: 1px solid var(--rule-heavy);
     }
-
+ 
     .newspaper-grid + .newspaper-grid {
       border-top: 1px solid var(--rule);
     }
-
+ 
     .news-col {
       padding: 1.6rem 1.4rem;
       border-right: 1px solid var(--rule-heavy);
     }
-
+ 
     .news-col:last-child { border-right: none; }
     .news-col:first-child { padding-left: 0; }
-
+ 
     .news-kicker {
       font-family: 'Special Elite', monospace;
       font-size: 9px;
@@ -316,7 +316,7 @@
       display: block;
       margin-bottom: 0.5rem;
     }
-
+ 
     .news-headline {
       font-family: 'Playfair Display', Georgia, serif;
       font-size: clamp(1.1rem, 2.5vw, 1.3rem);
@@ -325,15 +325,15 @@
       color: var(--ink);
       margin-bottom: 0.55rem;
     }
-
+ 
     .news-headline a {
       color: inherit;
       text-decoration: none;
       transition: color 0.2s;
     }
-
+ 
     .news-headline a:hover { color: var(--rust); }
-
+ 
     .news-byline {
       font-family: 'Special Elite', monospace;
       font-size: 9.5px;
@@ -342,7 +342,7 @@
       color: var(--sepia);
       margin-bottom: 0.8rem;
     }
-
+ 
     .news-body {
       font-size: 0.92rem;
       line-height: 1.75;
@@ -350,14 +350,14 @@
       text-align: justify;
       hyphens: auto;
     }
-
+ 
     .news-divider {
       width: 28px;
       height: 1px;
       background: var(--rust);
       margin: 0.9rem 0;
     }
-
+ 
     /* ── CATEGORY SECTION ── */
     .category-section {
       margin-top: 4.5rem;
@@ -365,7 +365,7 @@
       border-top: 3px solid var(--ink);
       scroll-margin-top: 55px;
     }
-
+ 
     .category-header {
       display: flex;
       align-items: baseline;
@@ -373,7 +373,7 @@
       margin-bottom: 0.4rem;
       flex-wrap: wrap;
     }
-
+ 
     .category-title {
       font-family: 'Playfair Display', Georgia, serif;
       font-size: clamp(1.8rem, 6vw, 3.2rem);
@@ -381,24 +381,24 @@
       color: var(--ink);
       line-height: 1;
     }
-
+ 
     .category-subtitle {
       font-family: 'Cormorant Garamond', Georgia, serif;
       font-style: italic;
       font-size: 0.95rem;
       color: var(--sepia);
     }
-
+ 
     .category-rule {
       width: 100%;
       height: 1px;
       background: var(--rule-heavy);
       margin: 0.75rem 0 2rem;
     }
-
+ 
     /* ── POETRY ── */
     .single-col { max-width: 620px; }
-
+ 
     .poem {
       font-family: 'Cormorant Garamond', Georgia, serif;
       font-size: 1.1rem;
@@ -409,7 +409,7 @@
       padding-left: 1.25rem;
       margin: 1.25rem 0 2.5rem;
     }
-
+ 
     .poem-title {
       font-family: 'Playfair Display', Georgia, serif;
       font-size: 1.35rem;
@@ -418,7 +418,7 @@
       margin-bottom: 0.25rem;
       font-style: normal;
     }
-
+ 
     .poem-meta {
       font-family: 'Special Elite', monospace;
       font-size: 10px;
@@ -427,7 +427,7 @@
       color: var(--sepia);
       margin-bottom: 0.9rem;
     }
-
+ 
     /* ── ABOUT ── */
     .about-body {
       font-size: 1.05rem;
@@ -435,33 +435,9 @@
       color: var(--ink-faded);
       max-width: 640px;
     }
-
+ 
     .about-body p + p { margin-top: 1.25rem; }
-
-    /* ── PHOTOS ── */
-    .photo-placeholder-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 0.75rem;
-      margin-top: 1rem;
-    }
-
-    .photo-placeholder {
-      aspect-ratio: 1;
-      background: rgba(26, 18, 8, 0.06);
-      border: 1px solid var(--rule);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Special Elite', monospace;
-      font-size: 9px;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--sepia);
-      text-align: center;
-      padding: 0.5rem;
-    }
-
+ 
     /* ── BACK TO TOP ── */
     .back-to-top {
       display: block;
@@ -476,19 +452,9 @@
       padding: 0.5rem 0;
       transition: color 0.2s;
     }
-
+ 
     .back-to-top:hover { color: var(--rust); }
-
-    /* ── SECTION NOTE ── */
-    .section-note {
-      font-family: 'Special Elite', monospace;
-      font-size: 10px;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--sepia);
-      margin-bottom: 1.25rem;
-    }
-
+ 
     /* ── FOOTER ── */
     footer {
       border-top: 3px solid var(--ink);
@@ -504,157 +470,148 @@
       text-transform: uppercase;
       color: var(--sepia);
     }
-
+ 
     /* ════════════════════════════════════
        RESPONSIVE BREAKPOINTS
     ════════════════════════════════════ */
-
+ 
     /* Tablet: 3-col → 2-col */
     @media (max-width: 760px) {
       .newspaper-grid {
         grid-template-columns: repeat(2, 1fr);
       }
-
+ 
       .newspaper-grid .news-col:nth-child(2) {
         border-right: none;
       }
-
+ 
       .newspaper-grid .news-col:nth-child(3) {
         border-top: 1px solid var(--rule);
         border-right: none;
         grid-column: 1 / -1;
         padding-left: 0;
       }
-
+ 
       .banner-body {
         column-count: 2;
       }
-
-      .photo-placeholder-grid {
-        grid-template-columns: repeat(3, 1fr);
-      }
     }
-
+ 
     /* Mobile: everything single column */
     @media (max-width: 520px) {
-
+ 
       /* Hide middle masthead item on very small screens */
       .masthead-top .hide-mobile {
         display: none;
       }
-
+ 
       .masthead-top {
         padding: 0.35rem 1rem;
         font-size: 9px;
       }
-
+ 
       .masthead-center {
         padding: 1.5rem 1rem 0;
       }
-
+ 
       .masthead-edition {
         font-size: 9px;
         letter-spacing: 0.2em;
       }
-
+ 
       .site-tagline {
         font-size: 0.82rem;
       }
-
+ 
       /* Nav scrolls horizontally — feels like a real mobile news app */
       .nav-inner {
         justify-content: flex-start;
         padding: 0 0.5rem;
       }
-
+ 
       nav a {
         font-size: 10px;
         padding: 0.55rem 0.85rem;
         letter-spacing: 0.14em;
       }
-
+ 
       main {
         padding: 1.5rem 1rem 4rem;
       }
-
+ 
       /* Full-width single column grid */
       .newspaper-grid {
         grid-template-columns: 1fr;
       }
-
+ 
       .newspaper-grid .news-col {
         border-right: none;
         border-top: 1px solid var(--rule);
         padding: 1.25rem 0;
       }
-
+ 
       .newspaper-grid .news-col:first-child {
         border-top: none;
         padding-left: 0;
       }
-
+ 
       .newspaper-grid .news-col:nth-child(3) {
         grid-column: auto;
         border-top: 1px solid var(--rule);
       }
-
+ 
       /* Banner drops to single column */
       .banner-body {
         column-count: 1;
       }
-
+ 
       /* Drop cap slightly smaller on mobile */
       .banner-body p:first-child::first-letter {
         font-size: 3rem;
       }
-
+ 
       .banner-headline {
         font-size: clamp(1.6rem, 7vw, 2.2rem);
       }
-
+ 
       .category-section {
         margin-top: 3.5rem;
         scroll-margin-top: 50px;
       }
-
+ 
       .category-header {
         gap: 0.5rem;
         flex-direction: column;
         align-items: flex-start;
       }
-
+ 
       .pull-quote-bar {
         padding: 1rem 0.75rem;
       }
-
-      /* Photos: 2 columns on mobile */
-      .photo-placeholder-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
+ 
       .poem {
         font-size: 1rem;
         padding-left: 1rem;
       }
-
+ 
       footer {
         flex-direction: column;
         text-align: center;
         gap: 0.3rem;
       }
-
+ 
       /* Hide decorative footer middle on small screens */
       footer span:nth-child(2) {
         display: none;
       }
     }
-
+ 
     /* Very small phones */
     @media (max-width: 360px) {
       .site-title {
         font-size: 2.6rem;
       }
-
+ 
       .masthead-rule-block .rule-line {
         max-width: 60px;
       }
@@ -662,13 +619,13 @@
   </style>
 </head>
 <body>
-
+ 
   <div class="masthead-top">
     <span>Vol. I &mdash; No. 1</span>
     <span class="hide-mobile">Thursday, May 14, 2026</span>
     <span>Free of Charge</span>
   </div>
-
+ 
   <header class="masthead-center" id="top">
     <p class="masthead-edition">Est. 2026 &mdash; A Junk Drawer Publication</p>
     <h1 class="site-title">Dead Letters</h1>
@@ -679,23 +636,22 @@
     </div>
     <p class="site-tagline">Books &middot; Music &middot; Photographs &middot; Poems &middot; Dispatches from the Interior</p>
   </header>
-
+ 
   <nav>
     <div class="nav-inner">
       <a href="#top">Home</a>
       <a href="#essays">Essays</a>
       <a href="#books">Books</a>
       <a href="#music">Music</a>
-      <a href="#photos">Photos</a>
       <a href="#poetry">Poetry</a>
       <a href="#about">About</a>
     </div>
   </nav>
-
+ 
   <main>
-
+ 
     <p class="section-label">Today&rsquo;s Edition</p>
-
+ 
     <article class="banner-story">
       <span class="banner-kicker">Music &mdash; Memory</span>
       <h2 class="banner-headline">
@@ -709,14 +665,14 @@
       </div>
       <a href="#music" class="continued">Continued in Music &darr;</a>
     </article>
-
+ 
     <div class="pull-quote-bar">
       <blockquote>&ldquo;Everybody loves a winner, so nobody loved me.&rdquo;</blockquote>
       <cite>&mdash; Kander &amp; Ebb, Cabaret (1966) &mdash; felt.</cite>
     </div>
-
+ 
     <p class="section-label">From the Archive</p>
-
+ 
     <div class="newspaper-grid">
       <div class="news-col">
         <span class="news-kicker">Books</span>
@@ -740,7 +696,7 @@
         <p class="news-body">Some songs are best heard while cleaning something. There is a particular power in screaming about violence while scrubbing a floor. The apartment ends up spotless. The feeling mostly stays.</p>
       </div>
     </div>
-
+ 
     <div class="newspaper-grid">
       <div class="news-col">
         <span class="news-kicker">Essays</span>
@@ -758,13 +714,13 @@
       </div>
       <div class="news-col">
         <span class="news-kicker">Photos</span>
-        <h3 class="news-headline"><a href="#photos">This Week Through the Lens</a></h3>
+        <h3 class="news-headline">This Week Through the Lens</h3>
         <p class="news-byline">May 9, 2026</p>
         <div class="news-divider"></div>
         <p class="news-body">A small collection of photographs taken this week. No particular theme. Light through windows, things left on tables, streets at odd hours. Evidence that the world is still out there.</p>
       </div>
     </div>
-
+ 
     <!-- ══ ESSAYS ══ -->
     <section class="category-section" id="essays">
       <div class="category-header">
@@ -775,29 +731,22 @@
       <div class="newspaper-grid">
         <div class="news-col">
           <span class="news-kicker">Manifesto</span>
-          <h3 class="news-headline"><a href="#">The Junk Drawer: A Defense</a></h3>
+          <h3 class="news-headline">The Junk Drawer: A Defense</h3>
           <p class="news-byline">May 5, 2026</p>
           <div class="news-divider"></div>
           <p class="news-body">Every house has one. A drawer for the miscellaneous, the doesn't-fit-anywhere, the too-good-to-throw-away. This blog is that drawer. Consider this its manifesto.</p>
         </div>
         <div class="news-col">
           <span class="news-kicker">Random Thoughts</span>
-          <h3 class="news-headline"><a href="#">On Naming Things: An Inquiry</a></h3>
+          <h3 class="news-headline">On Naming Things: An Inquiry</h3>
           <p class="news-byline">May 8, 2026</p>
           <div class="news-divider"></div>
           <p class="news-body">My car is named Edward. My guitar is named Erato. Everything I love has a name. This is either a charming quirk or a concerning pattern. Possibly both. An investigation.</p>
         </div>
-        <div class="news-col">
-          <span class="news-kicker">Placeholder</span>
-          <h3 class="news-headline"><a href="#">Your Next Essay Goes Here</a></h3>
-          <p class="news-byline">Coming soon</p>
-          <div class="news-divider"></div>
-          <p class="news-body">You've got things to say. This is where you say them. Replace this placeholder whenever you're ready.</p>
-        </div>
       </div>
       <a href="#top" class="back-to-top">&#8593; Back to top</a>
     </section>
-
+ 
     <!-- ══ BOOKS ══ -->
     <section class="category-section" id="books">
       <div class="category-header">
@@ -808,29 +757,22 @@
       <div class="newspaper-grid">
         <div class="news-col">
           <span class="news-kicker">Review</span>
-          <h3 class="news-headline"><a href="#">You Should Be So Lucky &mdash; Cat Sebastian</a></h3>
+          <h3 class="news-headline">You Should Be So Lucky &mdash; Cat Sebastian</h3>
           <p class="news-byline">May 13, 2026</p>
           <div class="news-divider"></div>
           <p class="news-body">Three hundred pages for one kiss. I almost quit. I didn't. I was right not to. A slow burn romance that earns every page of its patience, even when you want to throw it across the room.</p>
         </div>
         <div class="news-col">
           <span class="news-kicker">Currently Reading</span>
-          <h3 class="news-headline"><a href="#">What's on the Nightstand</a></h3>
+          <h3 class="news-headline">What's on the Nightstand</h3>
           <p class="news-byline">Updated regularly</p>
           <div class="news-divider"></div>
           <p class="news-body">A running log of what's currently in rotation. Finished, abandoned, and obsessed-over books all welcome. No genre discrimination. The junk drawer does not discriminate.</p>
         </div>
-        <div class="news-col">
-          <span class="news-kicker">Placeholder</span>
-          <h3 class="news-headline"><a href="#">Your Next Review Goes Here</a></h3>
-          <p class="news-byline">Coming soon</p>
-          <div class="news-divider"></div>
-          <p class="news-body">Finished something worth writing about? This column is waiting. Replace this whenever you're ready.</p>
-        </div>
       </div>
       <a href="#top" class="back-to-top">&#8593; Back to top</a>
     </section>
-
+ 
     <!-- ══ MUSIC ══ -->
     <section class="category-section" id="music">
       <div class="category-header">
@@ -840,9 +782,7 @@
       <div class="category-rule"></div>
       <article class="banner-story">
         <span class="banner-kicker">Memory &mdash; Full Essay</span>
-        <h2 class="banner-headline">
-          <a href="#">The Childhood iPod, or: What the Past Keeps Trying to Tell You</a>
-        </h2>
+        <h2 class="banner-headline">The Childhood iPod, or: What the Past Keeps Trying to Tell You</h2>
         <p class="banner-deck">On plugging in an old device and finding a ten-year-old who already knew everything that mattered.</p>
         <p class="banner-byline">May 14, 2026</p>
         <div class="banner-body">
@@ -863,48 +803,15 @@
       <div class="newspaper-grid">
         <div class="news-col">
           <span class="news-kicker">Review</span>
-          <h3 class="news-headline"><a href="#">Zombie &mdash; The Cranberries</a></h3>
+          <h3 class="news-headline">Zombie &mdash; The Cranberries</h3>
           <p class="news-byline">May 7, 2026</p>
           <div class="news-divider"></div>
           <p class="news-body">Some songs work best when you're cleaning something. Dolores O'Riordan understood this. A meditation on rage, grief, and housekeeping.</p>
         </div>
-        <div class="news-col">
-          <span class="news-kicker">Playlist</span>
-          <h3 class="news-headline"><a href="#">Your Next Playlist Write-Up</a></h3>
-          <p class="news-byline">Coming soon</p>
-          <div class="news-divider"></div>
-          <p class="news-body">Got a playlist with a story behind it? This column is yours. Replace this placeholder whenever you're ready.</p>
-        </div>
-        <div class="news-col">
-          <span class="news-kicker">Placeholder</span>
-          <h3 class="news-headline"><a href="#">Another Music Post</a></h3>
-          <p class="news-byline">Coming soon</p>
-          <div class="news-divider"></div>
-          <p class="news-body">There is always more music. There is always more to say about it. Replace this whenever you're ready.</p>
-        </div>
       </div>
       <a href="#top" class="back-to-top">&#8593; Back to top</a>
     </section>
-
-    <!-- ══ PHOTOS ══ -->
-    <section class="category-section" id="photos">
-      <div class="category-header">
-        <h2 class="category-title">Photos</h2>
-        <span class="category-subtitle">evidence that the world is still out there</span>
-      </div>
-      <div class="category-rule"></div>
-      <p class="section-note">Replace placeholders below with your &lt;img&gt; tags.</p>
-      <div class="photo-placeholder-grid">
-        <div class="photo-placeholder">Your photo here</div>
-        <div class="photo-placeholder">Your photo here</div>
-        <div class="photo-placeholder">Your photo here</div>
-        <div class="photo-placeholder">Your photo here</div>
-        <div class="photo-placeholder">Your photo here</div>
-        <div class="photo-placeholder">Your photo here</div>
-      </div>
-      <a href="#top" class="back-to-top">&#8593; Back to top</a>
-    </section>
-
+ 
     <!-- ══ POETRY ══ -->
     <section class="category-section" id="poetry">
       <div class="category-header">
@@ -941,19 +848,10 @@
           I walk with ghosts, a silent host,<br>
           Lost to the world, forever lost.
         </div>
-        <p class="poem-title">Maybe This Time</p>
-        <p class="poem-meta">May 10, 2026</p>
-        <div class="poem">
-          [Replace this with your actual poem text.<br>
-          Each line break is a &lt;br&gt; tag,<br>
-          or just hit enter between stanzas.<br>
-          The border and italic styling are already there<br>
-          waiting for your words.]
-        </div>
       </div>
       <a href="#top" class="back-to-top">&#8593; Back to top</a>
     </section>
-
+ 
     <!-- ══ ABOUT ══ -->
     <section class="category-section" id="about">
       <div class="category-header">
@@ -962,27 +860,26 @@
       </div>
       <div class="category-rule"></div>
       <div class="about-body">
-        <p><em>[Replace this with your actual about text. Here's a placeholder to get you started:]</em></p>
         <p>Dead Letters is a junk drawer. It holds the things that don't fit anywhere else &mdash; book reviews and music notes, photographs taken on odd afternoons, poems that arrived without warning, essays about whatever is currently demanding to be written about.</p>
         <p>It is maintained by one person, written by hand (more or less), and published without a schedule or a niche. There are no ads, no algorithms to please, and no particular ambition beyond getting the words out of the drawer and onto the page.</p>
         <p>If you're here, welcome. You can stay as long as you like.</p>
       </div>
       <a href="#top" class="back-to-top">&#8593; Back to top</a>
     </section>
-
+ 
   </main>
-
+ 
   <footer>
     <span>Dead Letters &mdash; Vol. I</span>
     <span>&#9670; All dispatches written by hand, more or less &#9670;</span>
     <span>Est. 2026</span>
   </footer>
-
+ 
   <script>
     const navLinks = document.querySelectorAll('nav a');
     const sections = document.querySelectorAll('section[id]');
     const homeLink = document.querySelector('nav a[href="#top"]');
-
+ 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -993,9 +890,9 @@
         }
       });
     }, { rootMargin: '-30% 0px -60% 0px' });
-
+ 
     sections.forEach(section => observer.observe(section));
-
+ 
     window.addEventListener('scroll', () => {
       if (window.scrollY < 120) {
         navLinks.forEach(link => link.classList.remove('active'));
@@ -1003,6 +900,6 @@
       }
     }, { passive: true });
   </script>
-
+ 
 </body>
 </html>
